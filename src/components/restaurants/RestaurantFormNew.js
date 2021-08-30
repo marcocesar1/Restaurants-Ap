@@ -115,23 +115,6 @@ export default function RestaurantFormNew() {
                             />
                         </FormControl>
                         <FormControl className={classes.formControl}>
-                            <InputLabel id="demo-simple-select-label">Rating</InputLabel>
-                            <Select
-                                name="rating"
-                                value={values.rating}
-                                onChange={handleInputChange}
-                                labelId="demo-simple-select-label"
-                                id="demo-simple-select"
-                                required
-                            >
-                                <MenuItem value="1">1</MenuItem>
-                                <MenuItem value="2">2</MenuItem>
-                                <MenuItem value="3">3</MenuItem>
-                                <MenuItem value="4">4</MenuItem>
-                                <MenuItem value="5">5</MenuItem>
-                            </Select>
-                        </FormControl>
-                        <FormControl className={classes.formControl}>
                             <InputLabel id="demo-mutiple-checkbox-label">Food Type</InputLabel>
                             <Select
                                 labelId="demo-mutiple-checkbox-label"
