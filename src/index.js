@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import RestaurantApp from './RestaurantApp';
 import reportWebVitals from './reportWebVitals';
 
+import './i18n';
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <RestaurantApp />,
   document.getElementById('root')
 );
 

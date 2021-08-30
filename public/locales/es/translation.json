@@ -1,0 +1,25 @@
+{
+  "appName": "Restaurantes",
+  "menu": {
+    "home": "Inicio",
+    "foodTypes": "Tipos de Comida"
+  },
+  "restaurants": {
+    "title": "Restaurantes",
+    "btnNew": "Nuevo restaurante",
+    "filter": "Filtrar",
+    "btnEdit": "Editar",
+    "btnDel": "Eliminar",
+    "titleNew": "Nuevo restaurante",
+    "btnCreate": "Crear",
+    "titleEdit": "Editar restaurante",
+    "btnUpdate": "Actualizar"
+  },
+  "reviews": {
+    "title": "Agregar reseña",
+    "btn": "Enviar reseña"
+  },
+  "foodTypes": {
+    "title": "Nuevo Tipo de Comida"
+  }
+}

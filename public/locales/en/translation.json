@@ -1,0 +1,25 @@
+{
+  "appName": "Restaurants",
+  "menu": {
+    "home": "Home",
+    "foodTypes": "Food Types"
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "btnNew": "New restaurant",
+    "filter": "Filter",
+    "btnEdit": "Edit",
+    "btnDel": "Delete",
+    "titleNew": "New restaurant",
+    "btnCreate": "Create",
+    "titleEdit": "Edit restaurant",
+    "btnUpdate": "Update"
+  },
+  "reviews": {
+    "title": "Add review",
+    "btn": "Send review"
+  },
+  "foodTypes": {
+    "title": "New Food Type"
+  }
+}
