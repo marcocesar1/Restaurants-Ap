@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import RestaurantApp from './RestaurantApp';
 import reportWebVitals from './reportWebVitals';
-
+import { I18nextProvider } from 'react-i18next';
+import i18n from "i18next";
 import './i18n';
 ReactDOM.render(
-    <RestaurantApp />,
+  <I18nextProvider i18n={i18n}>
+    <RestaurantApp />
+  </I18nextProvider>,
   document.getElementById('root')
 );
 
